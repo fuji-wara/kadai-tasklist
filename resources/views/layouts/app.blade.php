@@ -28,6 +28,7 @@
         </header>
 
         <div class="container">
+            @include('ommons.error_messages')
             @yield('content')
         </div>
 
